@@ -33,12 +33,12 @@ namespace Tugas2PABD
                     + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12123','AAAAB3','28-02-2022')"
                     + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12124','AAAAB4','29-02-2022')"
                     + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12125','AAAAB5','30-02-2022')"
-
-                    + "insert into Cake (Id_Cake ,Nama_Cake,Harga,Stok) values('32121','Brownies','20000','7')"
-                    + "insert into Cake (Id_Cake ,Nama_Cake,Harga,Stok) values('32122','Bolu','10000','5')"
-                    + "insert into Cake (Id_Cake ,Nama_Cake,Harga,Stok) values('32123','Cheesecake','20000','6')"
-                    + "insert into Cake (Id_Cake ,Nama_Cake,Harga,Stok) values('32124','Tiramisu','25000','4')"
-                    + "insert into Cake (Id_Cake ,Nama_Cake,Harga,Stok) values('32125','BlackForrest','40000','2')"
+                    
+                    + "insert into Cake (Id_Cake,Nama_Cake,Harga,Stok) values('32121','Brownies','20000','7')"
+                    + "insert into Cake (Id_Cake,Nama_Cake,Harga,Stok) values('32122','Bolu','10000','5')"
+                    + "insert into Cake (Id_Cake,Nama_Cake,Harga,Stok) values('32123','Cheesecake','20000','6')"
+                    + "insert into Cake (Id_Cake,Nama_Cake,Harga,Stok) values('32124','Tiramisu','25000','4')"
+                    + "insert into Cake (Id_Cake,Nama_Cake,Harga,Stok) values('32125','BlackFor','40000','2')"
 
                     + "insert into Pembeli (Id_Pembeli,Nama_Pembeli,Jenis_Kelamin,No_Telp) values('40321','Zidan','L','08123123231')"
                     + "insert into Pembeli (Id_Pembeli,Nama_Pembeli,Jenis_Kelamin,No_Telp) values('40322','Saddin','L','08123123232')"
@@ -47,16 +47,18 @@ namespace Tugas2PABD
                     + "insert into Pembeli (Id_Pembeli,Nama_Pembeli,Jenis_Kelamin,No_Telp) values('40325','Nazza','P','08123123235')"
 
                     + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212111','32121','12121')"
-                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212111','32122','12122')"
-                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212111','32123','12123')"
-                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212111','32124','12124')"
-                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212111','32125','12125')"
+                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212112','32122','12122')"
+                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212113','32123','12123')"
+                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212114','32124','12124')"
+                    + "insert into Menjual (Id_Kasir,Id_Cake,Id_Transaksi) values('212115','32125','12125')"
 
-                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('32121','40321','32121')"
-                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('32122','40322','32122')"
-                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('32123','40323','32123')"
-                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('32124','40324','32124')"
-                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('32125','40325','32125')",
+                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('12121','40321','32121')"
+                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('12122','40322','32122')"
+                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('12123','40323','32123')"
+                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('12124','40324','32124')"
+                    + "insert into Membeli (Id_Transaksi,Id_Pembeli,Id_Cake) values('12125','40325','32125')"
+
+                    ,
                     con);
                     
                 cm.ExecuteNonQuery();
