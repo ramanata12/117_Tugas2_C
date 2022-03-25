@@ -26,7 +26,13 @@ namespace Tugas2PABD
                     + "insert into Kasir (Id_Kasir,Nama_Karyawan,Jenis_Kelamin,No_Telp )values('212112','Ahmad','L','082121212113')"
                     + "insert into Kasir (Id_Kasir,Nama_Karyawan,Jenis_Kelamin,No_Telp )values('212113','Rahmad','L','082121212113')"
                     + "insert into Kasir (Id_Kasir,Nama_Karyawan,Jenis_Kelamin,No_Telp )values('212114','Nayah','P','082121212115')"
-                    + "insert into Kasir (Id_Kasir,Nama_Karyawan,Jenis_Kelamin,No_Telp )values('212115','Nanda','P','082121212116')",
+                    + "insert into Kasir (Id_Kasir,Nama_Karyawan,Jenis_Kelamin,No_Telp )values('212115','Nanda','P','082121212116')"
+
+                    + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12121','AAAAB1','26-02-2022')"
+                    + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12122','AAAAB2','27-02-2022')"
+                    + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12123','AAAAB3','28-02-2022')"
+                    + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12124','AAAAB4','29-02-2022')"
+                    + "insert into Transaksi (Id_Transaksi,Kode_Transaksi,Tanggal_Transaksi) values('12125','AAAAB5','30-02-2022')",
                     con);
                     
                 cm.ExecuteNonQuery();
